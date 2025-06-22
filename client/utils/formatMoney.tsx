@@ -1,7 +1,7 @@
 import currency from "currency.js";
 
 const formatMoney = (amount: number, currencyCode: string) => {
-  const symbol = currencyCode === "GBP" ? "£" : "$";
+  const symbol = currencyCode === "INR" ? "₹" : "$";
 
   return currency(amount, {
     symbol,
